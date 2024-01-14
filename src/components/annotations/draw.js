@@ -213,6 +213,7 @@ function drawRaw(gd, options, index, subplotId, xa, ya) {
 
     var annTextBG = annTextGroupInner.append('rect')
         .attr('class', 'bg')
+        .attr('rx', options._input.rx)
         .style('stroke-width', borderwidth + 'px')
         .call(Color.stroke, options.bordercolor)
         .call(Color.fill, options.bgcolor);

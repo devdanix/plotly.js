@@ -15,12 +15,15 @@
       {
         "x": "Not Known",
         "y": 1,
+        "bgcolor": "FF0000",
+        "rx": 10,
         "text": "Should point to category",
         "showarrow": true
       },
       {
         "x": 1.5,
         "y": 1.0,
+        "bgcolor": "FF0000",
         "text": "Should point to serial number",
         "showarrow": true
       }
